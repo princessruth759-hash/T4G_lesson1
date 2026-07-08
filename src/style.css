@@ -1,0 +1,76 @@
+ /* styling across all pages */
+    nav{
+        border:2px solid black;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+
+    }
+
+    nav ul li{
+        list-style-type:none;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* styling ends across all pages */
+
+    /* styling across all pages */
+
+.img1{
+    border: 10px double darkred;/*the values represent: border-width border-style border-height*/
+    margin: 10px 50px;/*the 2 values reprent: top and buttom left and right*/c
+}
+
+.img2{
+    border: 10px dotted black;
+    margin: 10px 25px 20px; /*2 values represent:top and buttom left and right*/
+}
+    
+ p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:20px;
+        font-weight: 100;
+        word-spacing:13px;
+        line-height: 2;
+        text-align: justify;
+        
+
+
+    }
+   button{
+        color:blueviolet
+        background-color acqua;
+        opacity: 1;
+        width: 150px;
+        height: 25px;
+        border: 1px solid blueviolet;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    /* img{
+        width:150px;
+        height:200px;
+        border:4px solid black ;
+        margin: 50px;
+
+    } */
+
+/* styling endsz for the Home page  */
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.products div image{
+   width: 400px; 
+   height: auto;
+   
+}
