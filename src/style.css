@@ -74,3 +74,24 @@
    height: auto;
    
 }
+
+.products div button{
+    color:white;
+    background-color: #3b241b;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    opacity: 0.9;
+    font-size: 23px;
+}
+
+.products div button:hover{
+    color: #3b241b;
+    background-color: white;
+    border:1px solid brown;
+}
+.products div{
+    border: 2px solid #3b241b;
+    padding: 10px;
+    box-shadow: 0px 5px 5px brown ;
+}
